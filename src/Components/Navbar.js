@@ -23,9 +23,7 @@ export function Navbar(obj) {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-outline-dark" onClick={() =>
-                obj?.setCount(0)
-              }>
+              <button className="btn btn-outline-dark" >
                 <i className="bi-cart-fill me-1"></i>
                 Cart
                 <span className="badge bg-dark text-white ms-1 rounded-pill">
@@ -39,4 +37,3 @@ export function Navbar(obj) {
       </nav></>
   );
 }
-export default Navbar();
